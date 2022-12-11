@@ -16,10 +16,8 @@ background: transparent;
   background: white;
 }
 //
-
-  position: relative;
   .productCollection{
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 375px;
@@ -33,7 +31,7 @@ background: transparent;
     background: #fff;
     border-radius: 50%;
     z-index: 1;
-    top: 110px;
+    top: 185px;
     img{
       vertical-align: middle;
       width: 12px;
