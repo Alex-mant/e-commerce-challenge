@@ -25,7 +25,7 @@ const StyledProductPrice = styled.div`
     background: #FFECE1;
   }
   .original-price{
-    color: grey;
+    color: #b7bac3;
     font-weight: bolder;
     text-decoration-line: line-through;
   }

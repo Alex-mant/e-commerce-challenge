@@ -45,6 +45,10 @@ const StyledHeader = styled.div`
         object-fit: contain;
         width: 100%;
       }
+      .profil-circle_img{
+        width: 22px;
+        height: 22px;
+      }
     }
   }
 `;
@@ -63,7 +67,7 @@ const Header = () => {
           <img src={iconCart} alt="Cart icon" />
         </div>
         <div className='profil-circle'>
-          <img src={imageAvatar} alt="user avatar" />
+          <img className='profil-circle_img'src={imageAvatar} alt="user avatar" />
         </div>
       </div>
 
